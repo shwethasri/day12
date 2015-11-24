@@ -1,0 +1,48 @@
+/* css file for tabbed layout */
+* {margin:0;padding:0}
+
+body {
+    color: black;
+    min-height: 3000px;
+}
+#tablayout > #tabs > ul li a:target
+{
+  border:0 5px;
+  border-bottom-width: thick;
+  border-style: solid;
+}
+#tablayout{
+    margin: 100px auto 100px;
+    width: 1200px;
+}
+#tablayout > #content{
+    clear: left;
+    display: block;
+    height: 500px;
+    overflow: hidden;
+    visibility: hidden;
+}
+#tablayout > #tabs > ul{
+    border-bottom: solid 1px;
+    height: 30px;
+    margin: 0 0;
+    overflow: hidden;
+    padding: 0 0;
+}
+#tablayout > #tabs > ul li{
+    border: 0;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0 4px 0 0;
+    padding: 0 0;
+}
+#tablayout > #tabs > ul li a{
+    color: black;
+    display: block;
+    font-size: 15px;
+    line-height: 30px;
+    height: 30px;
+    text-decoration: none;
+    padding: 0 30px;
+}
